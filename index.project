@@ -21,7 +21,6 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            /* تم إزالة padding-bottom: 80px; */
         }
         .container {
             max-width: 800px;
@@ -76,7 +75,6 @@
         .incorrect-animation {
             animation: incorrect-shake 0.4s ease-in-out;
         }
-        /* تم إزالة #download-footer CSS */
     </style>
 </head>
 <body class="bg-gray-100 p-4">
@@ -153,8 +151,6 @@
 
     </div>
     
-    <!-- تم إزالة شريط التنزيل الثابت في الأسفل -->
-
     <script>
         // مصفوفة الأسئلة (الوحدة الثالثة: الأنظمة البيئية ومواردها - 10 أسئلة)
         const questions = [
@@ -255,7 +251,7 @@
         const gameCard = document.getElementById('game-card');
         const finalScore = document.getElementById('final-score');
         const resultMessage = document.getElementById('result-message');
-        // تم إزالة downloadFooter
+
 
         // تحديث عدد الأسئلة الكلي في الواجهة
         document.querySelector('#quiz-container .flex div:last-child span').textContent = totalQuestions;
@@ -396,8 +392,6 @@
             }
             resultMessage.textContent = message;
         }
-
-        // تم إزالة دالة downloadCode()
 
         // تهيئة البدء (إظهار الشاشة الافتتاحية)
         document.addEventListener('DOMContentLoaded', () => {
